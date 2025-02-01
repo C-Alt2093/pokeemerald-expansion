@@ -413,7 +413,7 @@ const struct Ability gAbilitiesInfo[ABILITIES_COUNT] =
     [ABILITY_TRUANT] =
     {
         .name = _("Truant"),
-        .description = COMPOUND_STRING("Moves only every two turns."),
+        .description = COMPOUND_STRING("Moves only every two turns, but bypasses protect"),
         .aiRating = -2,
         .cantBeOverwritten = TRUE,
     },

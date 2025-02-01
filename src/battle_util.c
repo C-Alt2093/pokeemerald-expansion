@@ -8686,7 +8686,8 @@ bool32 IsBattlerProtected(u32 battlerAtk, u32 battlerDef, u32 move)
 
     if (!gProtectStructs[battlerDef].maxGuarded // Max Guard cannot be bypassed by Unseen Fist
      && IsMoveMakingContact(move, gBattlerAttacker)
-     && GetBattlerAbility(gBattlerAttacker) == ABILITY_UNSEEN_FIST)
+     && (GetBattlerAbility(gBattlerAttacker) == ABILITY_UNSEEN_FIST
+     || GetBattlerAbility(gBattlerAttacker) == ABILITY_TRUANT))
         return FALSE;
     else if ((gSideStatuses[GetBattlerSide(battlerDef)] & SIDE_STATUS_CRAFTY_SHIELD)
              && IS_MOVE_STATUS(move) && gMovesInfo[move].effect != EFFECT_COACHING)

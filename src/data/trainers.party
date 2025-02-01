@@ -231,9 +231,15 @@ Music: Aqua
 Double Battle: No
 AI: Check Bad Move
 
-Poochyena
-Level: 9
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Buneary (F)  
+Ability: Klutz  
+Level: 7
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe  
+
+BowlCut (Ralts) (F)  
+Ability: Trace  
+Level: 4
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe  
 
 === TRAINER_MARCEL ===
 Name: MARCEL
@@ -322,9 +328,15 @@ Music: Aqua
 Double Battle: No
 AI: Check Bad Move
 
-Poochyena
-Level: 11
+Zorua (F)
+Level: 9
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+
+Gothita (F)
+Level: 7
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+
+
 
 === TRAINER_GRUNT_WEATHER_INST_1 ===
 Name: GRUNT
@@ -2123,9 +2135,23 @@ Items: Full Restore
 Double Battle: No
 AI: Check Bad Move
 
-Zigzagoon @ Nugget
+Petilil @ Nugget
+Ability: Own Tempo
 Level: 7
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Absorb
+- Growth
+- Stun Spore
+
+Rockruff (F) 
+Ability: Keen Eye
+Level: 6
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Leer
+- Tackle
+- Sand Attack
+
+
 
 === TRAINER_DAPHNE ===
 Name: DAPHNE
@@ -2527,9 +2553,17 @@ Items: Full Restore
 Double Battle: No
 AI: Check Bad Move
 
-Zigzagoon @ Nugget
+Cottonee (M) @ Nugget
+Ability: Prankster
 Level: 7
+Quirky Nature
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+
+Glameow (M)
+Ability: Limber
+Level: 6
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+
 
 === TRAINER_MOLLIE ===
 Name: MOLLIE
@@ -4798,29 +4832,34 @@ Items: Potion / Potion
 Double Battle: No
 AI: Basic Trainer
 
-Geodude
-Level: 12
-IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
-- Tackle
-- Defense Curl
-- Rock Throw
-- Rock Tomb
+Dunsparce  
+Ability: Serene Grace  
+Level: 10  
+IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe  
+- Stealth Rock  
+- Glare  
+- Mud-Slap  
+- Defense Curl  
 
-Geodude
-Level: 12
-IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
-- Tackle
-- Defense Curl
-- Rock Throw
-- Rock Tomb
+Taillow  
+Ability: Guts  
+Level: 13  
+IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe 
+Adamant Nature  
+- Quick Attack  
+- Wing Attack  
+- Work Up  
+- Roost  
 
-Nosepass @ Oran Berry
-Level: 15
-IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
-- Block
-- Harden
-- Tackle
-- Rock Tomb
+Eevee @ Oran Berry  
+Ability: Adaptability  
+Level: 15  
+IVs: 15 HP / 0 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe 
+- Quick Attack  
+- Curse  
+- Double Kick  
+- Charm  
+
 
 === TRAINER_BRAWLY_1 ===
 Name: BRAWLY
@@ -5133,9 +5172,13 @@ Music: Male
 Double Battle: No
 AI: Check Bad Move
 
-Ralts
-Level: 9
-IVs: 1 HP / 1 Atk / 1 Def / 1 SpA / 1 SpD / 1 Spe
+Dunsparce
+Ability: Serene Grace
+Level: 8
+
+Rockruff
+Ability: Keen Eye
+Level: 8
 
 === TRAINER_TED ===
 Name: TED
@@ -5252,9 +5295,13 @@ Music: Girl
 Double Battle: No
 AI: Check Bad Move
 
-Shroomish
+Cottonee
+Ability: Prankster
 Level: 9
-IVs: 1 HP / 1 Atk / 1 Def / 1 SpA / 1 SpD / 1 Spe
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Absorb
+- Fairy Wind
+- Stun Spore
 
 === TRAINER_GEORGIA ===
 Name: GEORGIA
@@ -5950,7 +5997,12 @@ Double Battle: No
 AI: Check Bad Move
 
 Poochyena
-Level: 5
+Level: 4
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Protect
+
+Zigzagoon
+Level: 3
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 === TRAINER_BILLY ===
@@ -5962,11 +6014,11 @@ Music: Male
 Double Battle: No
 AI: Check Bad Move
 
-Zigzagoon
+Taillow
 Level: 5
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
-Seedot
+Shroomish
 Level: 7
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
@@ -5979,10 +6031,13 @@ Music: Male
 Double Battle: No
 AI: Check Bad Move
 
-Geodude
+Aipom
 Level: 10
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
-- Tackle
+
+Slakoth
+Level: 10
+IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 
 === TRAINER_TOMMY ===
 Name: TOMMY
@@ -5993,12 +6048,12 @@ Music: Male
 Double Battle: No
 AI: Check Bad Move
 
-Geodude
+Helioptile
 Level: 8
 IVs: 13 HP / 13 Atk / 13 Def / 13 SpA / 13 SpD / 13 Spe
 
-Geodude
-Level: 8
+Smoliv
+Level: 12
 IVs: 14 HP / 14 Atk / 14 Def / 14 SpA / 14 SpD / 14 Spe
 
 === TRAINER_JOEY ===
@@ -6010,9 +6065,14 @@ Music: Male
 Double Battle: No
 AI: Check Bad Move
 
-Machop
-Level: 9
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Rattata (Sentret)
+Ability: Keen Eye
+Level: 8
+Adamant Nature
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Scratch
+- Defense Curl
+- Quick Attack
 
 === TRAINER_BEN ===
 Name: BEN
@@ -6215,12 +6275,14 @@ Music: Male
 Double Battle: No
 AI: Check Bad Move
 
-Zigzagoon
+Wooloo (M)
+Ability: Run Away
 Level: 4
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
-Taillow
-Level: 3
+Poochyena (M)
+Ability: Quick Feet
+Level: 2
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 === TRAINER_TIMMY ===
@@ -6329,17 +6391,19 @@ Music: Hiker
 Double Battle: No
 AI: Check Bad Move
 
-Magikarp
-Level: 5
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-
-Magikarp
-Level: 6
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-
-Magikarp
+Dewpider
+Ability: Water Bubble
 Level: 7
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Water Gun
+- Infestation
+- Bug Bite
+
+Buizel
+Ability: Water Veil
+Level: 7
+- Soak
+- Growl
+- Tackle
 
 === TRAINER_CLAUDE ===
 Name: CLAUDE
@@ -8806,12 +8870,20 @@ Music: Twins
 Double Battle: Yes
 AI: Check Bad Move
 
-Seedot
-Level: 6
+Corsola
+Level: 4
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
-Lotad
-Level: 6
+Houndour
+Level: 4
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+
+Sewaddle
+Level: 4
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+
+Blitzle
+Level: 4
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 === TRAINER_MIU_AND_YUKI ===
@@ -9510,9 +9582,11 @@ Music: Male
 Double Battle: No
 AI: Basic Trainer
 
-Treecko
-Level: 5
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Fomantis
+Ability: Leaf Guard
+IVs: 15 HP / 31 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
+- Scratch
+- Growth
 
 === TRAINER_BRENDAN_ROUTE_110_MUDKIP ===
 Name: BRENDAN
@@ -9565,9 +9639,11 @@ Music: Male
 Double Battle: No
 AI: Check Bad Move / Try To Faint / Force Setup First Turn
 
-Torchic
-Level: 5
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Slugma
+Ability: Flame Body
+IVs: 15 HP / 15 Atk / 15 Def / 31 SpA / 15 SpD / 15 Spe
+- Tackle
+- Leer
 
 === TRAINER_BRENDAN_ROUTE_110_TREECKO ===
 Name: BRENDAN
@@ -9620,9 +9696,11 @@ Music: Male
 Double Battle: No
 AI: Basic Trainer
 
-Mudkip
-Level: 5
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Barboach
+Ability: Oblivious
+IVs: 31 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
+- Pound
+- Sand Attack
 
 === TRAINER_BRENDAN_ROUTE_110_TORCHIC ===
 Name: BRENDAN
@@ -9675,9 +9753,11 @@ Music: Female
 Double Battle: No
 AI: Basic Trainer
 
-Treecko
-Level: 5
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Fomantis
+Ability: Leaf Guard
+IVs: 15 HP / 31 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
+- Scratch
+- Growth
 
 === TRAINER_MAY_ROUTE_110_MUDKIP ===
 Name: MAY
@@ -9730,9 +9810,11 @@ Music: Female
 Double Battle: No
 AI: Basic Trainer
 
-Torchic
-Level: 5
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Slugma
+Ability: Flame Body
+IVs: 15 HP / 15 Atk / 15 Def / 31 SpA / 15 SpD / 15 Spe
+- Tackle
+- Leer
 
 === TRAINER_MAY_ROUTE_110_TREECKO ===
 Name: MAY
@@ -9785,9 +9867,11 @@ Music: Female
 Double Battle: No
 AI: Basic Trainer
 
-Mudkip
-Level: 5
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Barboach
+Ability: Oblivious
+IVs: 31 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
+- Pound
+- Sand Attack
 
 === TRAINER_MAY_ROUTE_110_TORCHIC ===
 Name: MAY
@@ -10560,11 +10644,11 @@ Music: Hiker
 Double Battle: No
 AI: Check Bad Move
 
-Geodude
+Whismur
 Level: 8
 IVs: 14 HP / 14 Atk / 14 Def / 14 SpA / 14 SpD / 14 Spe
 
-Geodude
+Starly
 Level: 8
 IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 
@@ -11053,12 +11137,9 @@ Music: Female
 Double Battle: No
 AI: Check Bad Move
 
-Zigzagoon
-Level: 4
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-
-Shroomish
-Level: 4
+Ekans (F)
+Ability: Intimidate
+Level: 6
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 === TRAINER_HALEY_1 ===
@@ -11070,11 +11151,11 @@ Music: Female
 Double Battle: No
 AI: Check Bad Move
 
-Lotad
+Budew
 Level: 6
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
-Shroomish
+Cottonee
 Level: 6
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
@@ -11087,8 +11168,9 @@ Music: Female
 Double Battle: No
 AI: Check Bad Move
 
-Marill
-Level: 9
+Blitzle (F)
+Ability: Lightning Rod
+Level: 11
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 === TRAINER_VIVI ===
@@ -11257,13 +11339,15 @@ Music: Male
 Double Battle: No
 AI: Check Bad Move
 
-Wurmple
+Ledyba
 Level: 4
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Tackle
 
-Wurmple
+Dingus (Surskit)
 Level: 4
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Water Gun
 
 === TRAINER_LYLE ===
 Name: LYLE
@@ -11274,20 +11358,29 @@ Music: Male
 Double Battle: No
 AI: Check Bad Move
 
-Wurmple
+Sewaddle (M)
+Ability: Swarm
 Level: 3
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
-Wurmple
+
+Paras (M)
+Ability: Effect Spore
 Level: 3
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Absorb
+- Scratch
 
-Wurmple
-Level: 3
+
+Grubbin (M)
+Ability: Swarm
+Level: 5
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
-Wurmple
-Level: 3
+
+Venipede (M)
+Ability: Poison Point
+Level: 5
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 === TRAINER_JOSE ===
@@ -11299,13 +11392,19 @@ Music: Male
 Double Battle: No
 AI: Check Bad Move
 
-Wurmple
+Mushracas (Paras)
+Ability: Effect Spore
 Level: 8
-IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Scratch
+- Stun Spore
+- Poison Powder
 
-Nincada
+Surskit
+Ability: Swift Swim
 Level: 8
-IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
+- Water Gun
+- Quick Attack
 
 === TRAINER_DOUG ===
 Name: DOUG
@@ -11363,11 +11462,11 @@ Music: Male
 Double Battle: No
 AI: Check Bad Move
 
-Nincada
+Skorupi
 Level: 6
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
-Nincada
+Burmy
 Level: 6
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
@@ -11549,9 +11648,14 @@ Music: Hiker
 Double Battle: No
 AI: Check Bad Move
 
-Geodude
-Level: 8
+Whismur
+Ability: Rattled
+Level: 11
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Astonish
+- Echoed Voice
+- Pound
+- Howl
 
 === TRAINER_ERIC ===
 Name: ERIC
@@ -12941,13 +13045,16 @@ Music: Rich
 Double Battle: No
 AI: Check Bad Move
 
-Zigzagoon @ Nugget
-Level: 8
+Stunky (M) @ Nugget
+Ability: Stench
+Level: 6
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
-Poochyena
+
+Glameow (F) @ Oran Berry
+Ability: Own Tempo
 Level: 8
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 5 Spe
 
 === TRAINER_SARAH ===
 Name: SARAH
@@ -12959,12 +13066,15 @@ Items: Full Restore
 Double Battle: No
 AI: Check Bad Move
 
-Lotad
-Level: 8
+Budew (F) @ Nugget
+Ability: Poison Point
+Level: 10
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
-Zigzagoon @ Nugget
-Level: 8
+
+Ledyba (F)
+Ability: Swarm
+Level: 10
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 === TRAINER_DARIAN ===
@@ -12976,8 +13086,8 @@ Music: Hiker
 Double Battle: No
 AI: Check Bad Move
 
-Magikarp
-Level: 9
+Feebas
+Level: 14
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 === TRAINER_HAILEY ===
@@ -13859,13 +13969,22 @@ Music: Hiker
 Double Battle: No
 AI: Check Bad Move
 
-Geodude
+Rockruff
+Ability: Vital Spirit
 Level: 8
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+IVs: 0 HP / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Tackle
+- Leer
+- Bite
 
-Geodude
+Tyrogue
+Ability: Steadfast
 Level: 8
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+IVs: 0 HP / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Fake Out
+- Low Kick
+- Focus Energy
+- Tackle
 
 === TRAINER_JOHNSON ===
 Name: JOHNSON
@@ -13876,13 +13995,21 @@ Music: Male
 Double Battle: No
 AI: Check Bad Move
 
-Shroomish
+Ekans
+Ability: Intimidate
 Level: 8
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Poison Sting
+- Leer
+- Wrap
 
-Lotad
+Stunky
+Ability: Keen Eye
 Level: 8
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Poison Gas
+- Scratch
+- Feint
+- Smokescreen
 
 === TRAINER_MELINA ===
 Name: MELINA
