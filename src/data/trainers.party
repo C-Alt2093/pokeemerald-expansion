@@ -9583,6 +9583,7 @@ Double Battle: No
 AI: Basic Trainer
 
 Fomantis
+Level: 5
 Ability: Leaf Guard
 IVs: 15 HP / 31 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 - Scratch
@@ -9640,6 +9641,7 @@ Double Battle: No
 AI: Check Bad Move / Try To Faint / Force Setup First Turn
 
 Slugma
+Level: 5
 Ability: Flame Body
 IVs: 15 HP / 15 Atk / 15 Def / 31 SpA / 15 SpD / 15 Spe
 - Tackle
@@ -9697,6 +9699,7 @@ Double Battle: No
 AI: Basic Trainer
 
 Barboach
+Level: 5
 Ability: Oblivious
 IVs: 31 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 - Pound
@@ -9754,6 +9757,7 @@ Double Battle: No
 AI: Basic Trainer
 
 Fomantis
+Level: 5
 Ability: Leaf Guard
 IVs: 15 HP / 31 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 - Scratch
@@ -9811,6 +9815,7 @@ Double Battle: No
 AI: Basic Trainer
 
 Slugma
+Level: 5
 Ability: Flame Body
 IVs: 15 HP / 15 Atk / 15 Def / 31 SpA / 15 SpD / 15 Spe
 - Tackle
@@ -9868,6 +9873,7 @@ Double Battle: No
 AI: Basic Trainer
 
 Barboach
+Level: 5
 Ability: Oblivious
 IVs: 31 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 - Pound

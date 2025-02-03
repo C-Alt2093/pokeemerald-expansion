@@ -1,7 +1,12 @@
 InsideOfTruck_MapScripts::
 	map_script MAP_SCRIPT_ON_LOAD, InsideOfTruck_OnLoad
 	map_script MAP_SCRIPT_ON_RESUME, InsideOfTruck_OnResume
+	map_script MAP_SCRIPT_ON_FRAME_TABLE, InsideOfTruck_OnFrame
 	.byte 0
+
+InsideOfTruck_OnFrame:
+	map_script_2 VAR_TEMP_A, 0, InsideOfTruck_EventScript_AtStartingLocation
+	.2byte 0
 
 InsideOfTruck_OnLoad:
 	setmetatile 4, 1, METATILE_InsideOfTruck_ExitLight_Top, FALSE
@@ -56,3 +61,28 @@ InsideOfTruck_Text_BoxPrintedWithMonLogo:
 	.string "It's a POKéMON brand moving and\n"
 	.string "delivery service.$"
 
+
+InsideOfTruck_EventScript_AtStartingLocation::
+	lock
+	goto_if_set FLAG_SYS_B_DASH, InsideOfTruck_EventScript_Text_TooHardToReach
+	msgbox Text_RunningShoesGet, MSGBOX_DEFAULT
+	setflag [FLAG_SYS_B_DASH]
+	setvar VAR_TEMP_A, 1
+	release
+	end
+
+Text_RunningShoesGet:
+	.string "You pull your running shoes out of the\n"
+	.string "storage box.$"
+
+InsideOfTruck_EventScript_Text_TooHardToReach:
+	lock
+	msgbox Text_TooHardToReach, MSGBOX_DEFAULT
+	release
+	end
+
+Text_TooHardToReach:
+	.string "The other boxes seem too difficult\n"
+	.string "to reach.\p" 
+	.string "Best to wait for mom\n"
+	.string "to unpack them.$"
