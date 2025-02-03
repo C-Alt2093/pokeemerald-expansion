@@ -1732,9 +1732,9 @@ static void Task_WaitStopSurfing(u8 taskId)
     #define FISHING_GOOD_ROD_ODDS 50
     #define FISHING_SUPER_ROD_ODDS 25
 #elif I_FISHING_BITE_ODDS >= GEN_3
-    #define FISHING_OLD_ROD_ODDS 50
-    #define FISHING_GOOD_ROD_ODDS 50
-    #define FISHING_SUPER_ROD_ODDS 50
+    #define FISHING_OLD_ROD_ODDS 75
+    #define FISHING_GOOD_ROD_ODDS 90
+    #define FISHING_SUPER_ROD_ODDS 100
 #else
     #define FISHING_OLD_ROD_ODDS 0
     #define FISHING_GOOD_ROD_ODDS 33

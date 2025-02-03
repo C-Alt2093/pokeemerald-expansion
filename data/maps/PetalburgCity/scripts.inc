@@ -765,3 +765,55 @@ PetalburgCity_Text_ImLookingForTalentedTrainers:
 	.string "I'm roaming the land in search of\n"
 	.string "talented TRAINERS.\p"
 	.string "I'm sorry to have taken your time.$"
+
+PetalburgCity_EventScript_ITEM_OLD_ROD_Get::
+	lock
+	faceplayer
+	goto_if_set FLAG_RECEIVED_OLD_ROD, PetalburgCity_EventScript_GoodLuckFishing
+	msgbox PetalburgCity_Text_HaveYouFishedBefore, MSGBOX_YESNO
+	compare VAR_RESULT, NO
+	goto_if_eq PetalburgCity_EventScript_IveNeverFished
+	msgbox PetalburgCity_Text_IveFished, MSGBOX_DEFAULT
+	giveitem ITEM_OLD_ROD
+	setflag [FLAG_RECEIVED_OLD_ROD]
+	msgbox PetalburgCity_Text_HowToFish, MSGBOX_DEFAULT
+	release
+	end
+
+PetalburgCity_Text_HaveYouFishedBefore:
+	.string "I've been fishing in PETALBURG all my\n" 
+	.string "life!\p"
+	.string "Have you ever fished before?$"
+
+PetalburgCity_EventScript_IveNeverFished:
+	msgbox PetalburgCity_Text_IveNeverFished, MSGBOX_DEFAULT
+	giveitem ITEM_OLD_ROD
+	setflag [FLAG_RECEIVED_OLD_ROD]
+	msgbox PetalburgCity_Text_HowToFish, MSGBOX_DEFAULT
+	release
+	end
+
+PetalburgCity_Text_IveNeverFished:
+	.string "I'm sure you'd enjoy fishing, I've found\n"
+	.string "lots of rare pokemon in the water.$"
+
+PetalburgCity_Text_IveFished:
+	.string "It's great to find someone who loves\n"
+	.string "fishing as much as I do.$"
+
+PetalburgCity_Text_HowToFish:
+	.string "With a fishing rod, you can fish to\n"
+	.string "your heart's content.\p"
+	.string "Just face the water, and you can use\n"
+	.string "the rod from your BAG.\p"
+	.string "And when you've got a bite, reel\n" 
+	.string "in by pressing A!$"
+
+PetalburgCity_EventScript_GoodLuckFishing:
+	lock	
+	msgbox PetalburgCity_Text_GoodLuckFishing, MSGBOX_DEFAULT
+	release
+	end
+
+PetalburgCity_Text_GoodLuckFishing:
+	.string "Good luck fishing!$"
