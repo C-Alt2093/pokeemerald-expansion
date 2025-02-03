@@ -205,8 +205,7 @@ void NewGameInitData(void)
     WipeTrainerNameRecords();
     ResetTrainerHillResults();
     ResetContestLinkResults();
-    ResetItemFlags();
-}
+    gSaveBlock3Ptr->followerIndex = OW_FOLLOWER_NOT_SET;}
 
 static void ResetMiniGamesRecords(void)
 {
